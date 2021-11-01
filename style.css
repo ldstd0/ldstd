@@ -1,6 +1,7 @@
 body {
 	user-select: none;
 	background: whitesmoke;
+	color: pur;
 }
 h1,h2,h3,h4,p,a {
 	animation: popup 1s;
@@ -186,12 +187,6 @@ h1,h2,h3,h4,p,a {
 	margin-top: -50px;
 }
 
-}
-
-@media (min-width: 300px) and (max-width: 500px) {
-	.link, #ver {
-		display: none;
-	}
 }
 
 @keyframes fadeout {
