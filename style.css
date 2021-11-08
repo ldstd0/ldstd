@@ -1,7 +1,6 @@
 body {
 	user-select: none;
 	background: whitesmoke;
-	color: pur;
 }
 h1,h2,h3,h4,p,a {
 	animation: popup 1s;
@@ -17,7 +16,7 @@ h1,h2,h3,h4,p,a {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: Consolas;
+	font-family: Helvetica;
 }
 
 #logo:hover {
@@ -33,12 +32,17 @@ h1,h2,h3,h4,p,a {
 	color: whitesmoke;
 	width: 160px;
 	background: linear-gradient(55deg,gray,pink);
-	font-family: Consolas, bold;
+	font-family: Helvetica, bold;
 	margin-top: 30px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.mbr {
+	display: none;
+}
+
 .article {
 	animation: fadeout 1s;
 	margin-top: 60px;
@@ -59,7 +63,7 @@ h1,h2,h3,h4,p,a {
 	color: whitesmoke;
 	width: 250px;
 	background: linear-gradient(55deg,gray,pink);
-	font-family: Consolas, bold;
+	font-family: Helvetica, bold;
 	margin-top: 30px;
 	text-align: center;
 	margin-left: auto;
@@ -105,7 +109,7 @@ h1,h2,h3,h4,p,a {
 	transition: 0.5s;
 	animation: fadeout 1s;
 	color: pink;
-	font-family: Consolas, bold;
+	font-family: Helvetica, bold;
 	font-size: 350%;
 	text-align: center;
 	transform: rotate(90deg);
@@ -113,7 +117,7 @@ h1,h2,h3,h4,p,a {
 .arrow {
 	animation: fadeout 1s;
 	color: black;
-	font-family: Consolas, bold;
+	font-family: Helvetica, bold;
 	font-size: 350%;
 	margin-bottom: 15px;
 	text-align: center;
@@ -144,56 +148,55 @@ h1,h2,h3,h4,p,a {
 ::-webkit-scrollbar-thumb {
 	background: linear-gradient(55deg,gray,pink);
 }
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 300px) and (max-width: 1000px) {
 
-#logo {
-	margin-top: 200px;
-	margin-bottom: 200px;
-	font-size: 500%;
-}
-
-.arrow, .arrow-bg {
-	display: none;
-}
-
-#fullscreen-window, #fullscreen-window1 {
-	width:  71.5%;
-	margin-left: 14.25%;
-	margin-right: 14.25%;
-}
-
-.article {
-	font-size: 700%;
-	line-height: 150px;
-}
-.description {
-	font-size: 500%;
-	line-height: 100px;
-}
-
-.link {
-	font-size: 700%;
-	width: 70%;
-}
-
-#links {
-	font-size: 500%;
-}
-#since {
-	font-size: 500%;
-}
-
-#shorter {
-	margin-top: -50px;
-}
+	#logo {
+		font-size: 600%;
+		margin-top: 300px;
+		margin-bottom: 300px;
+	}
+	.article {
+		font-size: 750%;
+		line-height: 150%;
+	}
+	.arrow-bg {
+		display: none;
+	}
+	.arrow, #since {
+		font-size: 700%;
+	}
+	.description {
+		margin-top: 200px;
+		font-size: 600%;
+		line-height: 140%;
+	}
+	#shorter {
+		margin-top: 100px;
+	}
+	.link {
+		font-size: 800%;
+		width: 70%;
+	}
+	#links {
+		margin-top: 200px;
+		font-size: 600%;
+	}
+	#download, #ver {
+		display: none;
+	}
+	.mbr {
+		display: block;
+	}
+	.nbr {
+		display: none;
+	}
 
 }
 
 @keyframes fadeout {
 	from {
 		opacity: 0;
-	}
-	to {
+	} to {
 		opacity: 1;
 	}
 }
