@@ -5,7 +5,7 @@
 <head>
 
 	<meta charset='utf-8'>
-	<title>loadystudio</title>
+	<title>ldstd</title>
 	<link rel='stylesheet' href='style.css'>
 	<link rel='apple-touch-icon' sizes='180x180' href='apple-touch-icon.png'>
 	<link rel='icon' type='image/png' sizes='32x32' href='favicon-32x32.png'>
@@ -22,52 +22,34 @@
 
 <body>
 
-	<h1 id=logo>loady<br>studio &#9996 &#128151</h1>
+	<h1 id=logo>loady<br>studio</h1>
 
-	<div id=bg0>
-		<h1 id=bg0t>we appreciate<br>the beauty<br>and brevity<br>of the code.</h1>
-		<h3 id=bg0c>
-			class modifiedmixin:<br>
-				def _init (self):<br>
-					self.clearmodifiedflag<br>
-					self.bind_all ('<<Modified>>', self._beenmodified)<br>
-				def _beenmodified (self, event = None):<br>
-					if self._resetting_modified_flag: return<br>
-					self.clearmodifiedflag ()<br>
-					self.beenmodified (event)
-		</h3>
-		<div id=bg0a></div>
-		<div id=bg0b></div>
-		<div id=bg0d></div>
-		<h1 id=bg0e>&#128172</h1>
-		<h1 id=bg0f>&#128076</h1>
-		<h1 id=bg0g>&#129300</h1>
+	<div id='bg'>
+		<h1 class='bg-text'>минимализм — лучшее, что случалось с веб-дизайном, как мне кажется.<br>поэтому этот сайт выглядит так.</h1>
+		<h2 class='bg-text'>и мои приложения тоже:</h2>
 	</div>
-	
-	<div class='coddy-window-bg' id='coddy-window-bg0'>
-		<div class='coddy-window' id='coddy-window1'></div>
+	<div id='bg-scroll'>
+		<a href='#article-notty'>
+		<div class='scroll-div' id='scroll-notty'>
+			<h1 class='scroll-article'>notty</h1>
+		</div>
+		</a>
 	</div>
-	<div class='coddy-window-bg' id='coddy-window-bg1'>
-		<div class='coddy-window' id='coddy-window0'></div>
+	<h1 class='article' id='article-notty'>code as art.<br>that's <span class='gr'>notty</span></h1>
+	<h1 class='description'><span class='gr'>notty</span> —<br>простой и минималистичный редактор кода.<br><br>написал,<br>проверил,<br>собрал,<br>задеплоил.</h1>
+	<div id='bg-w'>
+		<div class='w' id='w0'></div>
+		<div class='w' id='w1'></div>
 	</div>
-	<h1 class='article'>code <br>as art<br>that's <span class='gr-bg'>notty</span></h1>
-	<h2 class='description'><span class='gr-bg'>comfortable</span>,<br><span class='gr-bg'>minimalistic<br class='mbr'></span> user interface.<br>simple, <br class='mbr'>but <span class='gr-bg'>powerful</span></h2>
-
-	<h2 class='description'><span class='gr-bg'>themes</span> support,<br><span class='gr-bg'>syntax highlighting</span>.<br>support for <span class='gr-bg'>python</span>, js,<br class='nbr'>c, c++ and other</h2>
-
-	<div class='divider'></div>
-
-	<a href='https://github.com/loadystudio/notty'><h2 class='link'>github</h2></a>
-	<a href='https://github.com/loadystudio/notty/releases'><h2 class='link'>releases</h2></a>
-	<a href='https://github.com/loadystudio/notty/releases' id='download'><h2 class='link'>download</h2></a>
-	<h3 id='ver' style='text-align: center;margin-top:-20px;'>latest version (v1.16)</h3>
+	<h1 class='description'>подсветка синтаксиса,<br>темы,<br>поддержка многих языков.<br><br>не могу<br>придумать,<br>что могло понадобиться бы ещё для комфортного кодинга.</h1>
+	<a href='https://github.com/loadystudio/notty'><h1 class='link'>github</h1></a>
+	<a href='https://github.com/loadystudio/notty/releases'><h1 class='link'>releases</h1></a>
 
 	<div class='divider'></div>
 
 	<footer>
-		<h1 id='links'><a href='https://t.me/loadycode'>telegram</a> <a href='https://github.com/loadystudio'>github</a></h1>
-		<h1 id='since'><span class='gr-bg'>since2020</span></h1>
+		<h1 id='author'><span class='gr'>ldstd by loady</span></h1>
+		<h2 id='yrs'><span class='gr'>2020 — 2021</span></h2>
 	</footer>
-	</body>
 
 </html>
