@@ -92,21 +92,22 @@ h1,h2,h3,h4,p,a {
 }
 #w0 {
 	transform: translateY(50px);
-	background: url(img/notty0.png);
+	background: url(https://sun9-15.userapi.com/impg/wKBX5GyV3ZBm4zyJ8gWKu6ggtuk_pbNpMPpbAg/QUacJxppchw.jpg?size=702x452&quality=95&sign=c5deb79e6c6aa5394c115031fda83099&type=album);
 	background-size: 100%;
 }
 #w1 {
 	transform: translateY(40px);
-	background: url(img/notty1.png);
+	background: url(https://sun9-32.userapi.com/impg/t__32O7clTbwBIKAYR3o6t_3yGK9X7JqqRw0jw/3w4HvFzsefc.jpg?size=702x452&quality=95&sign=2859f81afb3d70772600c4db97955433&type=album);
 	background-size: 100%;
 }
 
 #bg-w {
-	box-shadow: 0 0 40px rgba(0,0,0,0.5);
+	#box-shadow: 0 0 40px rgba(0,0,0,0.5);
 	margin-left: -10px;
 	width: 102%;
+	border-radius: 50px;
 	height: 1300px;
-	background: linear-gradient(45deg, gray, pink);
+	background: linear-gradient(40deg, pink, whitesmoke);
 }
 
 #author {
@@ -118,6 +119,7 @@ h1,h2,h3,h4,p,a {
 	text-align: center;
 }
 .link {
+	border-radius: 20px;
 	transition: 0.5s;
 	text-align: center;
 	margin-left: auto;
@@ -138,7 +140,7 @@ h1,h2,h3,h4,p,a {
 	transform: scale(0.95);
 }
 .divider {
-	border-radius: 20px;
+	border-radius: 50px;
 	margin: auto;
 	width: 60%;
 	height: 10px;
