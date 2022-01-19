@@ -1,2 +1,2 @@
 hello!
-there is loadystudio github page.
+there is ldstd github page.
