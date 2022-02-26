@@ -49,7 +49,7 @@ h1,h2,h3,h4,p,a {
 	border-radius: 50px;
 }
 .scroll-article {
-	font-family: Consolas;
+	font-family: Helvetica;
 	font-size: 500%;
 	padding: 18%;
 	text-align: center;
@@ -63,7 +63,7 @@ h1,h2,h3,h4,p,a {
 	transform: scale(0.95);
 }
 .gr {
-	font-family: Consolas;
+	font-family: Helvetica;
 	background: linear-gradient(45deg, pink, gray);
 	color: whitesmoke;
 }
@@ -127,7 +127,7 @@ h1,h2,h3,h4,p,a {
 	margin-right: auto;
 	width: 25%;
 	font-size: 320%;
-	font-family: Consolas;
+	font-family: Helvetica;
 	background: linear-gradient(45deg, pink, gray);
 	color: whitesmoke;
 }
@@ -190,7 +190,7 @@ body {
 	border-radius: 50px;
 }
 .scroll-article {
-	font-family: Consolas;
+	font-family: Helvetica;
 	font-size: 700%;
 	padding: 20%;
 	text-align: center;
@@ -204,7 +204,7 @@ body {
 	transform: scale(0.95);
 }
 .gr {
-	font-family: Consolas;
+	font-family: Helvetica;
 	background: linear-gradient(45deg, pink, gray);
 	color: whitesmoke;
 }
@@ -254,12 +254,12 @@ body {
 #author {
 	font-size: 500%;
 	text-align: center;
-	font-family: Consolas;
+	font-family: Helvetica;
 }
 #yrs {
 	font-size: 400%;
 	text-align: center;
-	font-family: Consolas;
+	font-family: Helvetica;
 }
 .link {
 	border-radius: 20px;
@@ -269,7 +269,7 @@ body {
 	margin-right: auto;
 	width: 50%;
 	font-size: 600%;
-	font-family: Consolas;
+	font-family: Helvetica;
 	background: linear-gradient(45deg, pink, gray);
 	color: whitesmoke;
 }
