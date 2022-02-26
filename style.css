@@ -59,14 +59,17 @@ body{
 #l{
 	margin-top:150px;
 	margin-left:10%;
+	font-size:300%;
 }.art{
 	margin-top:150px;
 	margin-bottom:50px;
 	margin-left:5%;
+	font-size:300%;
 }.desc{
 	margin-top:0px;
 	margin-bottom:50px;
 	margin-left:10%;
+	font-size:200%;
 }#by{
 	margin-left:20px;
 }#by-bg{
