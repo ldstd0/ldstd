@@ -1,6 +1,6 @@
 {
-    "name": "loadystudio",
-    "short_name": "loadystudio",
+    "name": "ldstd",
+    "short_name": "ldstd",
     "icons": [
         {
             "src": "android-chrome-192x192.png",
@@ -10,6 +10,6 @@
     ],
     "theme_color": "#f5f5f5",
     "background_color": "#f5f5f5",
-    "start_url": "http://loadystudio.cf",
+    "start_url": "https://ldstd.cf",
     "display": "standalone"
 }
