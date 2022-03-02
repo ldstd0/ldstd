@@ -1,21 +1,29 @@
 body {
+	transition: 1s;
 	user-select: none;
 	background: whitesmoke;
 	overflow-x: hidden;
 }
 h1, h2, h3, p, a {
+	transition: 1s;
 	font-family: Helvetica;
 	color: black;
 	text-decoration: none;
 	-webkit-tap-highlight-color: transparent;
 }
 #l {
+	transition: 1s;
 	margin-top: 100px;
 	text-align: left;
 	margin-left: 10%;
 	font-size: 400%;
 }
+#l:active {
+	transition: 1s;
+	transform: scale(0.95);
+}
 .gr {
+	transition: 1s;
 	background: linear-gradient(45deg, pink, gray);
 	color: whitesmoke;
 }
@@ -31,12 +39,26 @@ h2 {
 	font-size: 200%;
 }
 .b {
+	transition: 1s;
+	background: linear-gradient(45deg, pink, gray);
+	color: whitesmoke;
 	text-align: center;
 	font-size: 250%;
-}
-#qr {
-	margin: auto;
 	width: 200px;
-	height: 200px;
-	background: url(tg.png);
+	margin-left: auto;
+	margin-right: auto;
 }
+.b:hover { transform: scale(1.05) }
+.b:active { transform: scale(0.95) }
+#qr {
+	transition: 1s;
+	border: 5px solid pink;
+	margin: auto;
+	width: 190px;
+	height: 190px;
+	background: url(img/tg.png);
+	background-size: cover;
+	margin-bottom: 50px;
+}
+#qr:hover { transform: scale(1.05) }
+#qr:active { transform: scale(0.95) }

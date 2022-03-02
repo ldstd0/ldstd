@@ -5,18 +5,22 @@
 	<title>ldstd</title>
 	<meta name=viewport content='width=device-width, initial-scale=1'>
 	<link rel=stylesheet href=style.css>
-	<link rel=apple-touch-icon sizes=180x180 href=apple-touch-icon.png>
-	<link rel=icon type=image/png sizes=32x32 href=favicon-32x32.png>
-	<link rel=icon type=image/png sizes=16x16 href=favicon-16x16.png>
+	<link rel=apple-touch-icon sizes=180x180 href=img/apple-touch-icon.png>
+	<link rel=icon type=image/png sizes=32x32 href=img/favicon-32x32.png>
+	<link rel=icon type=image/png sizes=16x16 href=img/favicon-16x16.png>
 	<link rel=manifest href=site.webmanifest>
 	<meta name=apple-mobile-web-app-title content=ldstd>
 	<meta name=application-name content=ldstd>
+	<meta name='description' content='code as art.'>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
 </head>
 <body>
-	</h1><h1 id=l>ldstd</h1>
-	<h1 class=art>code as art.<br>that's <span class=gr>notty</span> —</h1>
+	</h1><h1 id=l onclick='theme_switch()' translate=no>ldstd</h1>
+	<h1 class=art translate=no>code as art.<br>that's <span class=gr>notty</span> —</h1>
 	<h2>простой<br>и лёгкий<br>редактор<br>кода.</h2>
 	<h2>подсветка<br>синтаксиса,<br>темы,<br>поддержка<br>многих<br>языков.<br><br>не могу<br>придумать,<br>что могло<br>понадобиться<br>бы ещё для<br>комфортного<br>кодинга.</h2>
-	<a href=http://github.com/ldstd0/notty><h3 class=b>github</h3></a>
-	<a href=http://t.me/ldstd><div id=qr></div></a>
+	<a href=http://github.com/ldstd0/notty><h3 class=b translate=no>github</h3></a>
+	<a href=http://t.me/ldstd><div id=qr><h4 style='display:none'>telegram</h4></div></a>
+	<script src='script.js'></script>
+	<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').then(function(registration){console.log('sw successful:',registration.scope);},function(err){console.log('sw failed:',err);});});}</script>
 </html>
