@@ -15,14 +15,15 @@
 	<link rel=apple-touch-startup-image href=img/splash.png>
 	<link rel=manifest href=site.webmanifest>
 	<title>ldstd</title>
+	<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js></script>
 </head>
 <body>
-	</h1><h1 id=l onclick='theme_switch()'>ldstd</h1>
-	<h1 class=art>code as art.<br>that's <span class=gr>notty</span> —</h1>
-	<h2>простой<br>и лёгкий<br>редактор<br>кода.</h2>
-	<h2>подсветка<br>синтаксиса,<br>темы,<br>поддержка<br>многих<br>языков.<br><br>не могу<br>придумать,<br>что могло<br>понадобиться<br>бы ещё для<br>комфортного<br>кодинга.</h2>
-	<a href=http://github.com/ldstd0/notty><h3 class=b>github</h3></a>
-	<div id=qr onclick='tg()'></div>
+	<h1 id=l onclick=theme_switch()>//</h1>
+	<h1 class=art>code as art.<br>that's <span class=gr>notty</span></h1>
+	<h2>простой и лёгкий редактор кода.</h2>
+	<h2>подсветка синтаксиса, темы, поддержка многих языков.</h2>
+	<div class=b onclick=gh() style=margin-top:80px><h3>github</h3></div>
+	<div class=b onclick=tg() style=margin-bottom:80px><h3>telegram</h3></div>
 	<script src=script.js></script>
 	<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').then(function(registration){console.log('sw successful:',registration.scope);},function(err){console.log('sw failed:',err);});});}</script>
 </html>

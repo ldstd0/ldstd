@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body {
 	transition: 1s;
 	user-select: none;
@@ -12,15 +13,16 @@ h1, h2, h3, a {
 	-webkit-tap-highlight-color: transparent;
 }
 #l {
+	border-radius: 20px;
+	background: linear-gradient(45deg, pink, gray);
 	transition: 1s;
+	width: 70px;
 	margin-top: 100px;
-	text-align: left;
-	margin-left: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	color: whitesmoke;
+	text-align: center;
 	font-size: 400%;
-}
-#l:active {
-	transition: 1s;
-	transform: scale(0.95);
 }
 .gr {
 	transition: 1s;
@@ -34,31 +36,36 @@ h1 {
 	font-size: 350%;
 }
 h2 {
+	text-align: center;
 	margin-bottom: 50px;
-	margin-left: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
 	font-size: 200%;
 }
 .b {
+	border-radius: 20px;
 	transition: 1s;
 	background: linear-gradient(45deg, pink, gray);
 	color: whitesmoke;
 	text-align: center;
 	font-size: 250%;
-	width: 200px;
+	height: 70px;
+	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
-}
-.b:hover { transform: scale(1.05) }
-.b:active { transform: scale(0.95) }
-#qr {
-	transition: 1s;
-	border: 5px solid pink;
-	margin: auto;
-	width: 190px;
-	height: 190px;
-	background: url(img/tg.png);
-	background-size: cover;
 	margin-bottom: 50px;
 }
-#qr:hover { transform: scale(1.05) }
-#qr:active { transform: scale(0.95) }
+.art {
+	margin-left: 0px;
+	text-align: center;
+}
+h3 {
+	color: whitesmoke;
+	top:50%;
+	margin-top:-0.625em;
+}
+@media (min-width: 320px) and (max-width: 670px) {
+	h2 { width: 90%; font-size: 220% }
+	.b { width: 90% }
+}
